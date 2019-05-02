@@ -1,4 +1,4 @@
-package main
+package day01
 
 import "fmt"
 
@@ -14,7 +14,7 @@ func main() {
 	// %.2f保留小数位数为两位，会对第三位小数进行四舍五入
 	fmt.Printf("%d %f %.2f\n", a, b, b)
 
-	c := "你瞅啥";
+	c := "你瞅啥"
 	// %s是一个占位符 表示输出一个字符串类型
 	fmt.Printf("%s", c)
 }

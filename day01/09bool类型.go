@@ -1,4 +1,4 @@
-package main
+package day01
 
 import "fmt"
 
@@ -13,5 +13,5 @@ func main0901() {
 	a := false
 
 	// %T是一个占位符 表示输出一个变量对应的数据类型
-	fmt.Printf("%T",a)
+	fmt.Printf("%T", a)
 }
