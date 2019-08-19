@@ -21,8 +21,8 @@ func main1002() {
 
 func main() {
 
-	var a int = 10
-	var b int64 = 20
+	// var a int = 10
+	// var b int64 = 20
 	// 定义int和int64需要使用类型转换才可以进行计算
-	fmt.Println(a + b)
+	// fmt.Println(a + b)
 }
