@@ -2,7 +2,7 @@ package day01
 
 import "fmt"
 
-func main0401() {
+func main0400() {
 
 	// 多重赋值
 	a, b, c := 10, 3.14, "人生苦短，必须够浪"

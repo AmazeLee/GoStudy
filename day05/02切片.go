@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// 切片
 func main0201() {
 
 	// 数组定义 var 数组名 [元素个数]数据类型
@@ -44,4 +45,16 @@ func main() {
 
 	fmt.Println("长度：", len(s))
 	fmt.Println("容量：", cap(s))
+
+	// 如果整体数据没有超过1024字节，每次扩展为上一次的倍数 超过1024 每次扩展为上一次1/4
+	s = append(s, 23)
+	fmt.Println("长度：", len(s))
+	fmt.Println("容量：", cap(s))
+
+	n := make([]int, 5)
+	n[0] = 1
+
+	n = append(n, 1, 2, 3)
+	fmt.Println(n)
+	fmt.Println("容量：", cap(n))
 }
